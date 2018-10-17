@@ -1,0 +1,143 @@
+body {
+	background: linear-gradient(45deg, #f90000c7, #dd2476);
+	color: #797b7f;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+input {
+    width: 100%;
+    line-height: normal;
+}
+
+main {
+	padding-top: 61px;
+}
+
+.ba-daily-form {
+	max-width: 460px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 31px;
+	border-radius: 2px;
+}
+
+
+.ba-daily-form-header__title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 11px;
+}
+
+.ba-daily-form-header__title:before {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	content: "";
+	background: url("../img/sign_up_icon.svg") no-repeat;
+}
+
+.ba-daily-form-header__sub {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-bottom: 29px;
+}
+
+.ba-daily-form-link {
+	color:#ea355a;
+	text-decoration: none;
+}
+
+.ba-daily-form-link:hover {
+	color: #000;
+}
+
+.ba-daily-form-row {
+	display: flex;
+}
+
+
+.ba-copy {
+	color:  #797b7f;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	padding-bottom: 24px;
+}
+
+.ba-daily-form-row {
+	margin-bottom: 13px;
+	border-radius: 4px;
+}
+
+.ba-last-col {
+	margin-left: 14px;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	border: none;
+	margin-bottom: 20px;
+	background-color:  #ea355a;
+	box-shadow: 0px 3px 0px 0px #bd1962;	
+	display: inline-block;
+	color: #fff;
+	padding: 16px 0 16px 0;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 700;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background: #000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	border: none;
+	padding: 13px;
+	font-weight: 400;
+	font-size: 14px;
+	background-color: #f0f0f0;
+	border-radius: 4px;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+textarea {
+
+}
